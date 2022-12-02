@@ -1,0 +1,380 @@
+.header .wrapper
+{
+width:100%;
+margin:auto;
+}
+.banner .wrapper
+{
+width:80%;
+margin:auto;
+}
+.content .wrapper
+{
+width:80%;
+margin:auto;
+}
+.paragraph .wrapper
+{
+width:80%;
+margin:auto;
+}
+.long .wrapper
+{
+width:80%;
+margin:auto;
+}
+.short .wrapper
+{
+width:80%;
+margin:auto;
+}
+.find .wrapper
+{
+width:80%;
+margin:auto;
+}
+.footer .wrapper
+{
+width:100%;
+margin:auto;
+}
+.header
+{
+	height:100px;
+	background-color:aqua;
+}
+.header .header-fc
+{
+	display:flex;
+	justify-content:space-around;
+}
+.header .header-fc .start
+{
+	background-color:lightgreen;
+	width:20%;
+	height:50px;
+	margin-top:25px;
+	text-align:center;
+}
+.header .header-fc .home
+{
+	background-color:lavender;
+	width:10%;
+	height:50px;
+	margin-top:25px;
+    text-align:center;
+}
+.header .header-fc .about
+{
+	background-color:lavender;
+	width:10%;
+	height:50px;
+	margin-top:25px;
+	text-align:center;
+}
+.header .header-fc .navi
+{
+	background-color:lavender;
+	width:10%;
+	height:50px;
+	margin-top:25px;
+	text-align:center;
+}
+.header .header-fc .service
+{
+	background-color:lavender;
+	width:10%;
+	height:50px;
+	margin-top:25px;
+	text-align:center;
+}
+.header .header-fc .sign
+{
+	background-color:lightgreen;
+	width:20%;
+	height:50px;
+	margin-top:25px;
+	text-align:center;	
+}
+.banner
+{
+	height:300px;
+	background-color:cornflowerblue;
+}
+.banner .banner-fc
+{
+	display:flex;
+	flex-direction:column;
+}
+.banner .banner-fc .name
+{
+	text-align:center;
+	background-color:gray;
+	width:50%;
+	height:100px;
+	margin-top:50px;
+}
+.banner .banner-fc .button
+{
+	text-align:center;
+	background-color:gray;
+	width:20%;
+	height:50px;
+	margin-top:50px;
+}
+.content
+{
+	height:600px;
+	background-color:salmon;
+}
+.content .content-fc
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.content .content-fc .text
+{
+	background-color:lightgreen;
+	width:50%;
+	height:150px;
+	margin-top:40px;
+	text-align:center;
+}
+.content .content-fc .button
+{
+	background-color:lavender;
+	width:10%;
+	height:20px;
+	margin-top:40px;
+    text-align:center;
+}
+.content .content-fc .text
+{
+	background-color:lavender;
+	width:50%;
+	height:150px;
+	margin-top:40px;
+	text-align:center;
+}
+.content .content-fc .button
+{
+	background-color:lavender;
+	width:20%;
+	height:50px;
+	margin-top:40px;
+	text-align:center;
+}
+.content .content-fc .text
+{
+	background-color:lavender;
+	width:50%;
+	height:150px;
+	margin-top:40px;
+	text-align:center;
+}
+.content .content-fc .button
+{
+	background-color:lightgreen;
+	width:20%;
+	height:50px;
+	margin-top:40px;
+	text-align:center;	
+}
+.paragraph
+{
+	height:400px;
+	background-color:cornsilk;
+}
+.paragraph .paragraph-fc
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.paragraph .paragraph-fc .text
+{
+	background-color:crimson;
+	width:50%;
+	height:100px;
+	margin-top:66px;
+	text-align:center;
+}
+.paragraph .paragraph-fc .button
+{
+	background-color:chocolate;
+	width:20%;
+	height:50px;
+	margin-top:66px;
+	text-align:center;	
+}
+.paragraph .paragraph-fc .text
+{
+	background-color:crimson;
+	width:50%;
+	height:100px;
+	margin-top:66px;
+	text-align:center;
+}
+.paragraph .paragraph-fc .button
+{
+	background-color:chocolate;
+	width:20%;
+	height:50px;
+	margin-top:66px;
+	text-align:center;	
+}
+.long
+{
+	height:200px;
+	background-color:darkviolet;
+}
+.long .long-fc
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.long .long-fc .text
+{
+	background-color:darkturquoise;
+	width:50%;
+	height:100px;
+	margin-top:50px;
+	text-align:center;
+}
+.short
+{
+	height:200px;
+	background-color:dimgrey;
+}
+.short .short-fc
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.short .short-fc .text
+{
+	background-color:goldenrod;
+	width:50%;
+	height:100px;
+	margin-top:50px;
+	text-align:center;
+}
+.find
+{
+	height:200px;
+	background-color:lightcyan;
+}
+.find .find-fc
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.find .find-fc .text
+{
+	background-color:violet;
+	width:50%;
+	height:100px;
+	margin-top:50px;
+	text-align:center;
+}
+.find .find-fc .button
+{
+	background-color:red;
+	width:20%;
+	height:50px;
+	margin-top:50px;
+	text-align:center;	
+}
+.footer
+{
+	height:500px;
+	background-color:lightblue;
+}
+.footer .footer-fc
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+}
+.footer .footer-fc .copyright
+{
+	margin-top:80px;
+	background-color:deeppink;
+	width:15%;
+	height:250px;
+	text-align:center;
+}
+.footer .footer-fc .map
+{
+	background-color:deeppink;
+	width:15%;
+	height:250px;
+	margin-top:80px;
+    text-align:center;
+}
+.footer .footer-fc .phone
+{
+	background-color:deeppink;
+	width:15%;
+	height:250px;
+	margin-top:80px;
+	text-align:center;
+}
+.footer .footer-fc .email
+{
+	margin-top:80px;
+	background-color:deeppink;
+	width:15%;
+	height:250px;
+	text-align:center;
+}
+.footer .footer-fc .message
+{
+	background-color:deeppink;
+	width:15%;
+	height:250px;
+	margin-top:80px;
+    text-align:center;
+}
+.footer .footer-fc .boxa
+{
+	background-color:green;
+	width:30%;
+	height:50px;
+	margin-top:100px;
+	text-align:center;
+}
+.footer .footer-fc .boxb
+{
+	background-color:green;
+	width:30%;
+	height:50px;
+	margin-top:100px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
